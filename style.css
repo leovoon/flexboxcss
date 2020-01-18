@@ -52,3 +52,20 @@ footer {
 text-align: center;    width: 100%;
     
 }
+
+.copy {
+    position: relative;
+
+}
+
+.copy ::before{
+    content: 'CSS';
+    position: absolute ;
+    top: 0;
+    left: 0;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    width: 3rem;
+    background: rgb(226, 155, 62);
+    color: honeydew;
+}

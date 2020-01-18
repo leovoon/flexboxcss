@@ -6,19 +6,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Leo Voon</title>
+
+  <!-- Bulma & Font Awesome 5-->
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+
+  <!-- Style.css -->
   <link rel="stylesheet" href="style.css">
 
-  
 
+  <!-- CodeCopy Vanilla -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codecopy/umd/codecopy.min.css">
+  <script src="//cdn.jsdelivr.net/npm/codecopy/umd/codecopy.min.js" defer></script>
+
+  <!-- Javascript  -->
   <script src="script.js" defer></script>
 
-<style>
+  <style>
 
 
-</style>
+  </style>
 
 
 
@@ -26,42 +34,45 @@
 </head>
 
 <body>
- 
+
   <section class="hero  has-text-white has-text-centered has-background-success">
     <h1 class="is-size-1">Leo Voon</h1>
   </section>
-       
+
   <div class="hero-body">
     <div class="content">
       <h3 class="title">My Code Snippets</h3>
-      <pre>
+      <div class="copy">
+        <pre><code>
 .center, .center-column, .top, .right, .bottom, .left {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
-
+          
 .center-column {
-  flex-direction: column;
+    flex-direction: column;
 }
-
+          
 .top { align-items: flex-start; }
 .right { justify-content: flex-end; }
 .bottom { align-items: flex-start; }
 .left { justify-content: flex-start; }
-
+          
 .line-spaced, .line-spaced * {
-  line-height: 1;
-} 
-
+    line-height: 1;
+}    
+ 
 @media (max-width: 1024) { // Hide when NOT desktop
-  .desktop {
-    display: none;
-  }
-}
-      </pre    </div>
+     .desktop {
+           display: none;
+     }
+}</code></pre>
+
+      </div>
+    </div>
   </div>
-        
-         
+
+
 </body>
 
 </html>
